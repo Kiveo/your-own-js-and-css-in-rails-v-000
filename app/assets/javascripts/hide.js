@@ -4,6 +4,6 @@
 // Add hide.js to your JS manifest.
 
 function hideWhenClicked() {
-  let hide = document.getElementById('hide_this');
-  hide.style.display = "none";
+  // document.getElementById("hide_this").style.display = "none";
+  document.getElementById("hide_this").style.display = "none";
 }
