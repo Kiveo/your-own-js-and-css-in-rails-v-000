@@ -7,6 +7,6 @@ function hideWhenClicked() {
   document.getElementById("hide_this").style.display = "none";
 }
 
-$("#hide_this").click(hideWhenClicked);
+// $("#hide_this").click(hideWhenClicked);
 
-// element.addEventListener("click", myFunction);
+element.addEventListener("click", myFunction);
