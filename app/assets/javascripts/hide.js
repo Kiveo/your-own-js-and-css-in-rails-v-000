@@ -9,4 +9,4 @@ function hideWhenClicked() {
 
 // $("#hide_this").click(hideWhenClicked);
 
-element.addEventListener("click", myFunction);
+document.getElementById("hide_this").addEventListener("click", myFunction);
