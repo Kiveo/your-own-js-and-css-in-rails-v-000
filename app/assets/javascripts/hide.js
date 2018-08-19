@@ -3,9 +3,8 @@
 // Make sure to bind to #hide_this
 // Add hide.js to your JS manifest.
 
-function hideWhenClicked(element) {
-  let target = $(element.target);
-  target.hide();
+function hideWhenClicked() {
+  $("#hide_this").hide();
   // document.getElementById("hide_this").style.display = "none";
 }
 
